@@ -1,4 +1,4 @@
-package anabneri.exercises;
+package anabneri;
 
 public class selectionSort {
     public static int[] selectionSort(int[] array) {

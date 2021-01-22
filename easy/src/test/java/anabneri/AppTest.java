@@ -1,4 +1,4 @@
-package anabneri.exercises;
+package anabneri;
 
 import static org.junit.Assert.assertTrue;
 

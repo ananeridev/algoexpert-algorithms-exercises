@@ -1,4 +1,4 @@
-package anabneri.exercises;
+package anabneri;
 
 public class threeNumberSort {
 
