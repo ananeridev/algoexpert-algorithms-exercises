@@ -21,7 +21,7 @@ public class threeNumberSum {
                 } else if (currentSum < targetSum) {
                     left++;
                 } else if (currentSum > targetSum) {
-                    right++;
+                    right--;
                 }
             }
         }
