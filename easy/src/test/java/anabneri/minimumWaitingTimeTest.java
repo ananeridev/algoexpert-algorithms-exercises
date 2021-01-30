@@ -2,7 +2,6 @@ package anabneri;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
-import sun.plugin.com.Utils;
 
 public class minimumWaitingTimeTest {
 
