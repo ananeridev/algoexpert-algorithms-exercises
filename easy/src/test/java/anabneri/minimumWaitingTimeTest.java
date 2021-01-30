@@ -1,7 +1,8 @@
 package anabneri;
 
-import java.util.*;
+import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
+import sun.plugin.com.Utils;
 
 public class minimumWaitingTimeTest {
 
@@ -9,7 +10,7 @@ public class minimumWaitingTimeTest {
     public void TestCase1() {
         int[] queries = new int[]{3, 2, 1, 2, 6};
         int expected = 17;
-        var actual = new minimumWaitingTime().minimumWaitingTime(queries);
-        Utils.assertTrue(actual == expected);
+        int actual = new minimumWaitingTime().minimumWaitingTime(queries);
+        Assertions.assertTrue(actual == expected);
     }
 }
