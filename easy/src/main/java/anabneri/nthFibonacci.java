@@ -10,7 +10,6 @@ public class nthFibonacci {
         } else {
             return getNthFib(n - 1) + getNthFib(n - 2);
         }
-
     }
 }
 
