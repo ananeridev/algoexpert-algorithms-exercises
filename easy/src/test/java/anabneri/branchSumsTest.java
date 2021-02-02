@@ -6,8 +6,8 @@ import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 
-public class branchSumsTest extends  branchSums.BinaryTree{
-
+public class branchSumsTest {
+    public class TestBinaryTree extends  branchSums.BinaryTree {
         TestBinaryTree(int value) {
             super(value);
         }
@@ -44,6 +44,6 @@ public class branchSumsTest extends  branchSums.BinaryTree{
     public void TestCase1() {
         TestBinaryTree tree = new TestBinaryTree(1).insert(Arrays.asList(2, 3, 4, 5, 6, 7, 8, 9, 10));
         List<Integer> expected = new ArrayList<Integer>(Arrays.asList(15, 16, 18, 10, 11));
-        Utils.assertTrue(Program.branchSums(tree).equals(expected));
+        Assertions.assertTrue(branchSums.branchSums(tree).equals(expected));
     }
 }
